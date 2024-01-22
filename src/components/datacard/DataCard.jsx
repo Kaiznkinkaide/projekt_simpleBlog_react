@@ -7,8 +7,8 @@ const DataCard = ({title, published_date , author, description, img, id}) => {
         <>
         <div className="dataCard">
         <img src={img} />
-        <h1>{title}</h1>
-        <Link to={`/blog/${id}`}>MoreInfo</Link>
+        <h2>{title}</h2>
+        <Link to={`/blog/${id}`}>Read More</Link>
         </div>
         </>
      );

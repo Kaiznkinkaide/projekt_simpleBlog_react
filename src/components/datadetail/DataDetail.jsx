@@ -11,7 +11,7 @@ const DataDetail = ({title, published_date , author, description, img, id}) => {
 
     return ( 
         <>
-        <img src={gesuchteData[0].img_url} />
+        <img src={gesuchteData[0].img_url}/>
         <h3>{gesuchteData[0].title}</h3>
         <h3>{gesuchteData[0].author}</h3>
         <h3>{gesuchteData[0].published_date}</h3>
