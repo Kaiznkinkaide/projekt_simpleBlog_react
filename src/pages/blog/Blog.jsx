@@ -12,9 +12,10 @@ const Blog = () => {
         <>
         <Nav/>
         <h1>BLOG</h1>
+        <div className="blogList">
         {data.map((data, index)=>{
             return(
-                <div className="blogList" key={index}>
+                <div key={index}>
                     <DataCard
                     id={data.id}
                     img={data.img_url}
@@ -25,6 +26,7 @@ const Blog = () => {
                     </div>
             )
         })}
+        </div>
         </>
      );
 }
